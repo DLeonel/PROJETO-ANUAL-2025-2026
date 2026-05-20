@@ -2,6 +2,7 @@
 //import style from 'about.module.css';
 
 function About () {
+
     return (
         <>
             <h1>About Us Is the page primary </h1>

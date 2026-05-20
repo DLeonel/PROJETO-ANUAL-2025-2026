@@ -1,6 +1,10 @@
 function Footer() {
 
-    return null
+    return (
+        <footer>
+            <p>2026&copyNexaTeach</p>
+        </footer>
+    )
 
 }
 

@@ -1,16 +1,17 @@
-import { Outline } from "react-router-dom";
- import Header from "../components/layout/Header";
- import Footer from "../components/layout/Footer";
+import { Outlet } from "react-router-dom";
+import Header from "../components/layout/Header";
+import Footer from "../components/layout/Footer";
 
-function App() {
+function RouterApp () {
     return (
         <>
-            < Header />
+            <Header />
             <main>
-                <Outline />
+                <Outlet />
             </main>
             <Footer />
         </>
     )
 }
-export default App;
+
+export default RouterApp;
