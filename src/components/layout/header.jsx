@@ -1,17 +1,22 @@
-//import style from "./header.module.css";
-import { Nav } from "./fragments/Nav";
+import { Link } from "react-router-dom";
+/**Usado apenas durante o desenvolvimento,
+ * para facilitar a navegação entre as páginas,
+ * visto que o menu lateral não é funcional.
+ */
 
-function Header () {
+function Header() {
 
     return (
         <header>
-            <h1>NexaTeach</h1>
-
-            <nav>
-                <Nav />
-            </nav>
+            <ul>
+                {/*paginas ao meu encargo*/}
+                <li><Link to="/">About</Link></li>
+                <li><Link to="Markets">Markets</Link></li>
+                <li><Link to="Technology">Technology</Link></li>
+                <li><Link to="NotFound">NotFound</Link></li>
+            </ul>
         </header>
-        )
+    )
 }
 
 export default Header;
