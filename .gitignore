@@ -37,4 +37,9 @@ dist-ssr
 .package.json
 .vite.config.js
 
-#Arquivos desnecessários para teu desenvolvimento como membro exemplo: .src/pages/admin/* .src/pages/impact/* .src/pages/investors/* .src/pages/media/* .src/pages/team/* .src/pages//*
+#Arquivos desnecessários para teu desenvolvimento como membro exemplo: 
+.src/pages/admin/*
+.src/pages/impact/*
+.src/pages/investors/*
+.src/pages/media/*
+.src/pages/team/* 
