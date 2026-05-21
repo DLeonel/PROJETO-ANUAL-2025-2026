@@ -1,0 +1,42 @@
+/* Variáveis padronizadas do projeto */
+
+:root {
+    /* Paleta de cores */
+    --primary-color: #006eff;
+
+    /* Tamanhos de fonte*/
+    --font-size-xxs: 7px;
+    --font-size-xs: 10px;
+    --font-size-sm: 12px;
+    --font-size-md: 14px;
+    --font-size-base: 16px; /* padrão para texto */
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-2xl: 22px;
+    --font-size-3xl: 24px;
+    --font-size-4xl: 26px;
+    --font-size-5xl: 28px;
+    --font-size-6xl: 30px;
+    --font-size-7xl: 32px;
+    --font-size-8xl: 34px;
+
+    /* Borda Radius */
+    --border-radius-small: 4px;
+    --border-radius-medium: 8px;
+    --border-radius-large: 16px;
+    --border-radius-xlarge: 32px;
+}
+
+/* MODO CLARO 
+.light-mode {
+    --backgroundColor: #fff;
+    --color: #222;
+}
+*/
+
+/* MODO ESCURO
+.dark-mode {
+    --backgroundColor: #222;
+    --color: #fff;
+}
+*/

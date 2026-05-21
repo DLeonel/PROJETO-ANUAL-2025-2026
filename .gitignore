@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+###[DEDALDINO-OBS!]
+##Adicionem em 'branch', um gitinore semelhante ao de baixo, afim de enviar
+##apenas os arquivos que sofrerão alterações durante o vosso desenvolvimento...
+
+#Arquivos que não sofrerão alteração: 
+.public/*
+.eslint.config.js
+.index.html
+.package-lock.json
+.package.json
+.vite.config.js
+
+#Arquivos desnecessários para teu desenvolvimento como membro exemplo: .src/pages/admin/* .src/pages/impact/* .src/pages/investors/* .src/pages/media/* .src/pages/team/* .src/pages//*
