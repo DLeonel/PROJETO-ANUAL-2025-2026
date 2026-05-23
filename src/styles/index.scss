@@ -1,0 +1,16 @@
+@import "./base/variables.scss";
+@import "./base/reset.scss";
+@import "./base/typography.scss";
+@import "./base/base.scss";
+
+header{
+    width: 100%;
+    background-color: rgba(107, 217, 47, 0.279);   
+}
+header *{
+    color:black;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+
+}

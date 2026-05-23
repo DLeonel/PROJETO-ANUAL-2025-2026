@@ -1,0 +1,59 @@
+/* Variáveis padronizadas do projeto */
+
+
+/* Paleta de cores */
+$primary-color: #a53a88;
+$secondary-color: #f4bfd6;
+$accent-color: #dd2473;
+$text-color: #222222;
+
+$text-secondary-color: #7a7a7a;
+$background-color: #ffffff;
+$text-accent-color: #ffffff;
+
+/* Tamanhos de fonte*/
+$font_size_xxs: 7px;
+$font_size_xs: 10px;
+$font_size_sm: 12px;
+$font_size_md: 14px;
+$font_size_base: 16px;
+
+/* padrão para texto */
+$font_size_lg: 18px;
+$font_size_xl: 20px;
+$font_size_2xl: 22px;
+$font_size_3xl: 24px;
+$font_size_4xl: 26px;
+$font_size_5xl: 28px;
+$font_size_6xl: 30px;
+$font_size_7xl: 32px;
+$font_size_8xl: 34px;
+
+/* Borda Radius */
+$border_radius_small: 4px;
+$border_radius_medium: 8px;
+$border_radius_large: 16px;
+$border_radius_xlarge: 32px;
+
+/* MEDIA QUERIES */
+$mobile_small_breakpoint: 350px;
+$mobile_breakpoint: 600px;
+$tablet_small_breakpoint: 768px;
+$tablet_breakpoint: 1024px;
+$desktop_breakpoint: 1440px;
+$large_desktop_breakpoint: 1920px;
+
+
+/* MODO CLARO 
+.light_mode {
+    $backgroundColor: #fff;
+    $color: #222;
+}
+*/
+
+/* MODO ESCURO
+.dark_mode {
+    $backgroundColor: #222;
+    $color: #fff;
+}
+*/

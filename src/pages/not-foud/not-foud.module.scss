@@ -1,0 +1,156 @@
+@import "../../styles/base/variables.scss" ;
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+/*container figure*/
+.main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem 0;
+}
+
+.container .image {
+    width: 80px
+}
+
+@media (min-width: $mobile_small_breakpoint ) {
+    .container .image {
+    width: auto;
+    }
+}
+
+/*===== BOX FIGCAPTION AND YOUR CHILDRENS =====*/
+.container .infomation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.container .infomation .title {
+    font-size: $font_size_lg;
+}
+
+@media (min-width: $mobile_small_breakpoint ) {
+    .container .infomation .title {
+        font-size: $font_size_xl;
+    }
+}
+
+@media (min-width: $mobile_breakpoint) {/*tablets*/
+    .container .infomation .title {
+        font-size: $font_size_5xl;
+    }
+}
+
+
+.container .infomation .description {
+    color: $text-secondary-color ;
+    max-width: 80vw;
+    font-size: $font_size_sm;
+    text-align: center;
+}
+@media (min-width: $mobile_small_breakpoint ) {
+    .container .infomation .description {
+        font-size: $font_size_md;
+    }
+}
+
+/*telemoveis mais pequenos*/
+@media (min-width: $mobile_breakpoint ) {
+.container .infomation .description {
+        font-size: $font_size_base;
+        max-width: 70vw;
+    }
+}
+
+/*tablets*/
+@media (min-width: $tablet_breakpoint) {
+    .container .infomation .description {
+        font-size: $font_size_md;
+         max-width: 60vw;
+    }
+}
+
+/*box of buttons*/
+.main .box_buttons {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: $tablet_breakpoint ) {
+    .main .box_buttons {
+        margin-top: 10px;
+        flex-direction: row;
+    }
+}
+.box_buttons .btn {
+    border-radius: $border_radius_medium;
+    padding: 0.7rem 0;
+    width: 15rem;
+}
+
+@media (min-width: $mobile_small_breakpoint ) {
+    .box_buttons .btn {
+        padding: 1rem 0;
+        width: 20rem;
+    }
+}
+/*tablets*/
+@media (min-width: $tablet_small_breakpoint) {
+    .box_buttons .btn {
+        padding: 1.4rem 0;
+        width: 30rem;
+    }
+}
+@media (min-width: $tablet_breakpoint) {
+    .box_buttons .btn {
+        padding: 1.0rem 0;
+        width: 20rem;
+    }
+}
+
+.box_buttons .btn:active {
+    transform: scale(0.98);
+}
+
+.box_buttons .btn-primary {
+    background-color: $primary_color ;
+    color: $text-accent-color ;
+}
+
+.box_buttons .btn-primary:hover {
+    background-color: $secondary_color ;
+    color: $primary_color ;
+}
+
+.box_buttons .btn-secondary {
+    border: 2px solid $secondary_color ;
+    background-color: transparent;
+    color: $primary_color ;
+}
+
+.box_buttons .btn-secondary:hover {
+    background-color: $secondary_color ;
+    color: $primary_color ;
+}
+
+/*
+#a53a88
+#f4bfd6
+rgb(145, 139, 192)
+#9d3b8b
+#dd2473
+*/

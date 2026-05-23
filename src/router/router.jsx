@@ -16,9 +16,10 @@ const router = createBrowserRouter([
             {   index: true,    element: <About /> },
             {   path: "Markets",  element:  <Markets /> },
             {   path: "Technology",  element:    <Technology /> },
-            {   path: "NotFound",  element:    <NotFoud /> }
+      
         ]
-    }
+    },
+    {   path: "NotFound",  element:    <NotFoud /> }
 ]);
 
 export default router;

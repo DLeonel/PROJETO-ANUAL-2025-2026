@@ -1,0 +1,65 @@
+/* Definir estilos globais (evitar uso de classes quando possível) */
+html {
+    font-family: "Armata", sans-serif;
+    font-size: $font_size_base;
+    background-color: $background-color;
+}
+
+body {
+    height: 100%;
+    min-height: 100dvh;
+    width: 100%;
+    max-width: 100dvw;
+    color: $text-color;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
+/* Links: usar variáveis __link_color e __link_visited... ( ainda por definir ) */
+a:link{
+    color: $accent-color;
+}
+a:visited {
+    color: $text-secondary-color;
+}
+
+/* Headings */
+h1 {
+    font-size: $font_size_4xl;
+}
+
+h2 {
+    font-size: $font_size_3xl;
+}
+
+h3 {
+    font-size: $font_size_2xl;
+}
+
+h4 {
+    font-size: $font_size_xl;
+}
+
+h5 {
+    font-size: $font_size_lg;
+}
+
+h6 {
+    font-size: $font_size_base;
+}
+
+legend {
+    font-size: $font_size_md;
+}
+
+/* Media elements: manter proporção e responsividade */
+img,
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
