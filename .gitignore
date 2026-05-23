@@ -22,13 +22,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-
-##[DEDALDINO-OBS!]
-#apenas os arquivos que sofrerão alterações durante o vosso desenvolvimento...
-#Arquivos desnecessários para teu desenvolvimento como membro exemplo: 
-.src/pages/admin/*
-.src/pages/impact/*
-.src/pages/investors/*
-.src/pages/media/*
-.src/pages/team/* 
